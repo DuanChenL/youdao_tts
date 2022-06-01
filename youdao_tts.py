@@ -8,13 +8,13 @@ from pygame import mixer
 from mutagen.mp3 import MP3
 
 
-def encrypt(signStr):
+def encrypt(signStr:str):
     hash_a = hashlib.md5()
     hash_a.update(signStr.encode("utf8"))
     return hash_a.hexdigest()
 
 
-def play(mp3_file):
+def play(mp3_file:str):
     audio = MP3(mp3_file)
     mixer.init()
     mixer.music.load(mp3_file)
