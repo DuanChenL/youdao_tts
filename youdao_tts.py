@@ -47,14 +47,12 @@ lang_dict = {
 }
 print(
     """----Code of languages----
- 0:Chinese       1:English
- 2:Japanese      3:Korean
- 4:French        5:German
- 6:Russian       7:Spanish
- 8:Portuguese    9:Italian
-10:Vietnamese   11:Indonesian
-12:Arabic       13:Dutch
-14:Thai"""
+ 0:Chinese    1:English       2:Japanese
+ 3:Korean     4:French        5:German
+ 6:Russian    7:Spanish       8:Portuguese
+ 9:Italian   10:Vietnamese   11:Indonesian
+12:Arabic    13:Dutch        14:Thai
+"""
 )
 choice = input(
     "Enter the code of source and target language, separated by blank space:"
